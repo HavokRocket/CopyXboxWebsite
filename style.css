@@ -1,0 +1,78 @@
+.bar:hover{
+    background-color: forestgreen;
+    opacity: 1;
+}
+
+.bottombar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.combination{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left:10px;
+}
+
+.combination:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.txt:hover{
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.big_pic{
+    display: flex;
+    justify-content: center;
+}
+
+.bigleftui{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    font-size: small;
+}
+
+.leftui{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    font-size: small;
+}
+
+.rightui{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    font-size: small;
+}
+
+.combination img{
+    height: 50%;
+}
+
+.txt{
+    padding-left:10px;
+}
